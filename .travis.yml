@@ -3,4 +3,5 @@ language: java
 jdk:
   - oraclejdk11
 script:
+    export CLASSPATH=.
     java PriorityQueueTest.java
