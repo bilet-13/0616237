@@ -9,4 +9,4 @@ install:
     echo $PATH
     
 script:
-    javac PriorityQueueTest.java && java PriorityQueueTest
+    java PriorityQueueTest.java
