@@ -138,7 +138,7 @@ public class PriorityQueueTest {
         PriorityQueue<Integer> pq=new PriorityQueue<>(0);
     }
 
-    @Test //(expected =NullPointerException.class)
+    @Test (expected =NullPointerException.class)
     public void InitException(){
        List<Integer> arrlist= new ArrayList<Integer>();
        arrlist.add(null);
