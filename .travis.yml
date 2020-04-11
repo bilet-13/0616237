@@ -8,6 +8,7 @@ before_install:
 install:
     echo $PATH
 before_script:
-    javac PriorityQueueTest.java
+    javac -cp junit-4.13;. PriorityQueueTest.java 
 script:
-    java PriorityQueueTest
+    java -cp junit-4.13.jar;hamcrest-core-1.3.jar;. org.junit.runner.JUnitCore PriorityQueueTest 
+
