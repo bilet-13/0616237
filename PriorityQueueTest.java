@@ -1,9 +1,4 @@
-<dependency>
-  <groupId>junit</groupId>
-  <artifactId>junit</artifactId>
-  <version>4.13</version>
-  <scope>test</scope>
-</dependency>
+
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.Test;
